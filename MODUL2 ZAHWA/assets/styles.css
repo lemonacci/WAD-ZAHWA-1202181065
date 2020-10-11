@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+body {
+    padding-top: 4.5rem;
+    padding-bottom: 3rem;
+}
+
+
+.myDiv {
+    display: none;
+}
+
+.myDiv img {
+    margin: 0 auto;
+}
+
+#showStandard img {
+    width: 400px;
+    height: auto;
+}
+
+#showSuperior img {
+    width: 400px;
+    height: auto;
+}
+
+#showLuxury img {
+    width: 400px;
+    height: auto;
+}
