@@ -57,7 +57,7 @@
                             <li class="list-group-item">1 Bathroom</li>
                         </ul>
                         <div class="card-footer">
-                            <button name="submit" class="btn btn-primary" value="Standard" name="booknow">Book Now</button>
+                            <button type="submit" class="btn btn-primary" value="Standard" name="booknow">Book Now</button>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                             <li class="list-group-item">1 Bathroom with hot water</li>
                         </ul>
                         <div class="card-footer">
-                            <button name="submit" class="btn btn-primary" value="Superior" name="booknow">Book Now</button>
+                            <button type="submit" class="btn btn-primary" value="Superior" name="booknow">Book Now</button>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                             <li class="list-group-item">1 Workroom</li>
                         </ul>
                         <div class="card-footer">
-                            <button name="submit" class="btn btn-primary" value="Luxury" name="booknow">Book Now</button>
+                            <button type="submit" class="btn btn-primary" value="Luxury" name="booknow">Book Now</button>
                         </div>
                     </div>
                 </div>

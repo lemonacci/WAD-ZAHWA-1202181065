@@ -47,7 +47,7 @@
     </nav>
 
     <div class="container mt-4">
-        <form action="my_booking.php" metohd="get">
+        <form action="my_booking.php" method="post">
             <div class="row">
                 <div class="col"></div>
                 <div class="col-sm-4">
@@ -69,25 +69,25 @@
                         <?php 
                             if ($booknow == "Standard") {   
                                 echo'
-                                    <select id="rmtype" name="rmtype" class="form-control" readonly>                                 
+                                    <select id="booknow" name="booknow" class="form-control" readonly>                                 
                                         <option value="Standard" selected />Standard</option>
                                     </select>
                                 ';
                             } elseif ($booknow == "Superior") {
                                 echo'
-                                    <select id="rmtype" name="rmtype" class="form-control" readonly>                                 
+                                    <select id="booknow" name="booknow" class="form-control" readonly>                                 
                                         <option value="Superior" selected />Superior</option>
                                     </select>
                                 ';
                             } elseif ($booknow == "Luxury") {
                                 echo'
-                                    <select id="rmtype" name="rmtype" class="form-control" readonly>                                 
+                                    <select id="booknow" name="booknow" class="form-control" readonly>                                 
                                         <option value="Luxury" selected />Luxury</option>
                                     </select>
                                 ';
                             } else {
                                 echo'
-                                    <select id="rmtype" name="rmtype" class="form-control" onChange="jsDropdown(\'cful\',\'assets\',this.value)">                                 
+                                    <select id="booknow" name="booknow" class="form-control" onChange="jsDropdown(\'cful\',\'assets\',this.value)">                                 
                                         <option value="Standard" selected />Standard</option>
                                         <option value="Superior" />Superior</option>
                                         <option value="Luxury" />Luxury</option>

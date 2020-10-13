@@ -55,7 +55,7 @@
             $pricesrv2 = 0;
         }
 
-        $total=($roomprice**$duration)+$pricesrv1+$pricesrv2; 
+        $total=($roomprice*$duration)+$pricesrv1+$pricesrv2; 
     ?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
