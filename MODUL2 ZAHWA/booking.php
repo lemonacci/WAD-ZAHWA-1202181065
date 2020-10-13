@@ -47,7 +47,7 @@
     </nav>
 
     <div class="container mt-4">
-        <form action="my_booking.php" method="post">
+        <form action="my_booking.php" metohd="get">
             <div class="row">
                 <div class="col"></div>
                 <div class="col-sm-4">
