@@ -114,7 +114,7 @@ if ($jml > 0) {
                                 <div class="card-custom bg-danger p-3"></div>
                                 <div class="card-body">
                                     <form>
-                                        <input type="hidden" name="id" value="<?= $id ?>">
+                                        <input type="hidden" name="id" value="<? $id ?>">
                                         <div class="form-group">
                                             <label>Name</label>
                                             <input type="text" class="form-control" name="namea" id="namea" value="<?= $name ?>">

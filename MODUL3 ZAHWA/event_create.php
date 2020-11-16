@@ -5,7 +5,7 @@ include('header.php');
 <div class="container">
     <h4 class="text-primary mb-5">Buat Event</h4>
 
-    <form action="event_create_process.php" method="post" enctype="multipart/form-data">
+    <form action="event_create_process.php" method="get" enctype="multipart/form-data">
         <div class="row card-deck w-100">
             <div class="col">
                 <div class="card rounded w-100">
