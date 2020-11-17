@@ -1,6 +1,6 @@
 <?php
 include("config.php");
-if(isset($_POST['create']))
+if(!isset($_POST['create']))
 {
 	$name = $_POST['namea'];
     $deskripsi = $_POST['deskripsi'];

@@ -4,7 +4,7 @@ include("config.php");
 if(isset($_POST['id']))
 {
 	$id = $_POST['id'];
-	$sql = "DELETE FROM event WHERE id ='$id'";
+	$sql = "DELETE FROM event WHERE id !='$id'";
 	$qry = mysqli_query($conn, $sql);
 	if ($qry) 
 	{
