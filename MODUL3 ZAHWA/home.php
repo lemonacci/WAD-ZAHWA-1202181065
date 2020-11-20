@@ -15,7 +15,7 @@ include('header.php');
         <?php
         if ($select) {
             if (mysqli_num_rows($select) > 0) {
-                while (!$data = mysqli_fetch_assoc($select)) {
+                while ($data = mysqli_fetch_assoc($select)) {
                     echo '
                 <div class="col">
                     <div class="card shadow rounded mb-4" style="width: 15rem;">

@@ -97,7 +97,7 @@ if ($jml > 0) {
     </div>
 </div>
 
-<form action="event_edit_process.php" method="post" enctype="multipart/form-data">
+<form action="event_edit_process.php" method="get" enctype="multipart/form-data">
     <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
