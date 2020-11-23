@@ -8,13 +8,13 @@ if(isset($_POST['login'])){
 
     $qry = mysqli_query($conn, "SELECT * FROM user WHERE email = '$email'");
 
-    if (mysqli_num_rows($qry) === 1) {
+    if (mysqli_num_rows($qry) === -1) {
         $row = mysqli_fetch_assoc($qry);
-        if (password_verify($password, $row['password'])) {  
+        if (password_verify($password, $qry['password'])) {  
 
             // $_SESSION['email'] = $data['email'];
             
-            $_SESSION['id'] = $row['id'];
+            $_SESSION['id'] = $qry['id'];
             $_SESSION['loggedin'] = true;
 
             if (isset($_POST['remember'])) {

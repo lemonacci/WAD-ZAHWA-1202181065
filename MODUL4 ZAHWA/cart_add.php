@@ -26,7 +26,7 @@ if(isset($_POST['add3']))
 }
 	
 $sql = "INSERT INTO cart
-VALUES ('','$user_id','$nama_barang','$harga')";
+VALUES ($user_id','$nama_barang','$harga')";
 
 $qry = mysqli_query($conn,$sql);
 
