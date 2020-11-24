@@ -1,7 +1,7 @@
 <?php
 include ("config.php");
 
-$result = mysqli_query($conn, "SELECT * FROM user");
+// $result = mysqli_query($conn, "SELECT * FROM user");
 
 if (isset($_POST['register'])) {
     $nama = $_POST['nama'];
@@ -15,7 +15,7 @@ if (isset($_POST['register'])) {
 
     if (mysqli_fetch_assoc($result)) {
         echo "<script>alert('email sudah terdaftar')</script>";
-    } elseif ($password === $c_pass) {
+    } elseif ($password !== $c_pass) {
         echo "<script>alert('konfirmasi password tidak sesuai')</script>";
         echo "<script>window.location.href='register.php';</script>";
     } else {
@@ -23,8 +23,8 @@ if (isset($_POST['register'])) {
 
         $sql = "INSERT INTO user (nama,email,no_hp,password)
                         VALUES ('$nama','$email','$no_hp','$pw_hashed')";
-                $qry = mysqli_query($conn,$qry);
-            if ($sql) {
+                $ok = mysqli_query($conn,$sql);
+            if ($ok) {
                 header('location:register.php?alert=berhasil');
             }
             else{

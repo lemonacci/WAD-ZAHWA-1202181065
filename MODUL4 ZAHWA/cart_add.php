@@ -25,8 +25,7 @@ if(isset($_POST['add3']))
     $harga = 115000;
 }
 	
-$sql = "INSERT INTO cart
-VALUES ($user_id','$nama_barang','$harga')";
+$sql = "INSERT INTO cart VALUES ('', '$user_id','$nama_barang','$harga')";
 
 $qry = mysqli_query($conn,$sql);
 

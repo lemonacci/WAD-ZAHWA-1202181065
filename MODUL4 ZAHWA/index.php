@@ -42,7 +42,7 @@ if (isset($_GET['alert'])) {
                 <h2 class="text-center">WAD Beauty</h2>
                 <p class="text-center">Tersedia Skin Care dengan harga murah tapi bukan murahan dan berkualitas</p>
             </div>
-            <form action="cart_add.php" method="get">
+            <form action="cart_add.php" method="post">
                 <div class="card-group">
                     <div class="card">
                         <img src="assets/41.jpeg" class="card-img-top">
