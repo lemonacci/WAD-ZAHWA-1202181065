@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'EB Garamond', serif; */
+    /* font-family: 'Lato', sans-serif; */
+}
+
+body {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+
+.myDiv {
+    display: none;
+}
+
+.myDiv img {
+    margin: 0 auto;
+}
+
+#showStandard img {
+    width: 400px;
+    height: auto;
+}
+
+#showSuperior img {
+    width: 400px;
+    height: auto;
+}
+
+#showLuxury img {
+    width: 400px;
+    height: auto;
+}
+
+.card-custom {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+}
+
+.mb-min{
+    margin-bottom: -10px!important;
+}
