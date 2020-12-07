@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/home', 'App\Http\Controllers\InventoryController@home')->name('home');
-Route::get('/product', 'App\Http\Controllers\InventoryController@product')->name('product');
+Route::post('/product', 'App\Http\Controllers\InventoryController@product')->name('product');
 Route::get('/order', 'App\Http\Controllers\InventoryController@order')->name('order');
 Route::get('/history', 'App\Http\Controllers\InventoryController@history')->name('history');
 Route::post('/inputp', 'App\Http\Controllers\InventoryController@inputp')->name('inputp');

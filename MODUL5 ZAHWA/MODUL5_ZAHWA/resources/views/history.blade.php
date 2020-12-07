@@ -24,7 +24,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($orders as $order)
+                    @foreach($order as $order)
                     <tr>
                         <th scope="row">{{ $loop->iteration }}</th>
                         <td>{{ $order->product_id }}</td>

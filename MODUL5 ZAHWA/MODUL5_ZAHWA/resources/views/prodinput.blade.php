@@ -6,8 +6,7 @@
 <div class="container">
     <h2 class="text-center mb-5 mt-4">Input Product</h2>
     <div class="row">
-        <form class="w-75 mx-auto" action="{{ route('inputp') }}" method="post" enctype="multipart/form-data">
-            @csrf
+        <form class="w-75 mx-auto" action="{{ route('inputp') }}" method="post" enctype="multipart/form-data">            
             <input type="hidden" name="id">
             <div class="form-group">
                 <label class="col-form-label">Product Name</label>
