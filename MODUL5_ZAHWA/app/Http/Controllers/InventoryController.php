@@ -71,7 +71,7 @@ class InventoryController extends Controller
 
         $products = DB::table('products')->where('id', $id)->get();
 
-        return view('orderadd');
+        return view('orderadd', compact('products'));
     }
 
     public function addorder (Request $request)
